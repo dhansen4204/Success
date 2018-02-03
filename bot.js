@@ -71,7 +71,7 @@ function respond() {
   else if(request.text && botRegexDL.test(request.text)) {
     this.res.writeHead(200);
     //postMessage("http://www.daddyleagues.com/maddenrating?name=&position=all&team="+request.text.substring(5,8));
-    postMessage("https://www.daddyleagues.com/blitz");
+    postMessage("https://www.daddyleagues.com/success");
     this.res.end();
   } 
   
@@ -92,7 +92,7 @@ function respond() {
   }
   else if(request.text && botRegexRules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.daddyleagues.com/blitz/rules");
+    postMessage("http://success-gaming.webs.com/rules");
     this.res.end();
   } 
   else if(request.text && botRegexFourth.test(request.text)) {
@@ -157,7 +157,7 @@ function respond() {
   }
   else if(request.text && botRegexTrade.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("To submit a trade, click here: https://www.daddyleagues.com/blitz/forum/forum/7031");
+    postMessage("To submit a trade, click here: http://success-gaming.webs.com/apps/forums/show/15304874-trades");
     this.res.end();
   }
   
