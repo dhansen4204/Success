@@ -10,7 +10,7 @@ function respond() {
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/; 
       botRegexRip = /^\/rip/; botRegexCrrct = /^\/correct/;
-      botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexBdog = /^\/bdog/; botRegexGoodg = /^\/gg/;
+      botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexBengals = /^\/bengals/; botRegexGoodg = /^\/gg/;
       botRegexLaugh = /^\/lol/; botRegexWrong = /^\/wrong/; botRegexShaki = /^\/shaki/;
       botRegexDaf = /^\/dafuq/; botRegexMA32 = /^\/pending/; botRegexTrade = /^\/trade/; 
       siege1 = 'https://i.groupme.com/350x419.png.adc8c73a6c1547e0a9e04320296329f8'; siege2 = 'https://i.groupme.com/1279x752.jpeg.aa5d0401e0df495bba4b4e09dc5a6bd7'
@@ -38,9 +38,9 @@ function respond() {
     postMessage("http://www.wikihow.com/Tie-a-Noose");
     this.res.end();
   } 
-  else if(request.text && botRegexBdog.test(request.text)) {
+  else if(request.text && botRegexBengals.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/750x750.jpeg.c49a282d6b7044a59e21d93e3e2aca63");
+    postMessage("https://i.groupme.com/750x414.jpeg.a0158215740249ae9bbfda2c1c40c0c2.large");
     this.res.end();
   } 
   else if(request.text && botRegexDaf.test(request.text)) {
