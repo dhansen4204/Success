@@ -97,7 +97,10 @@ function respond() {
   } 
   else if(request.text && botRegexFourth.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/750x131.jpeg.c866b72a17754fbc9b2639d050acc6ba.large");
+    postMessage("You are allowed to go for it on 4th down under these conditions:
+You are up by 3 or less, pass the 50 and it is 4th and 3 or less
+Down 14 or more in 2nd half
+Down n 4th");
     this.res.end();
   } 
   else if(request.text && botRegexSC.test(request.text)) {
