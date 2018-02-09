@@ -97,10 +97,7 @@ function respond() {
   } 
   else if(request.text && botRegexFourth.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("You are allowed to go for it on 4th down under these conditions:
-You are up by 3 or less, pass the 50 and it is 4th and 3 or less
-Down 14 or more in 2nd half
-Down n 4th");
+    postMessage("You are allowed to go for it on 4th down under these conditions: \n 1. You are up by 3 or less, past the 50 and it is 4th and 3 or less. \n 2. You are down by 14 or more in the second half. \n 3. You are down in the 4th quarter. ");
     this.res.end();
   } 
   else if(request.text && botRegexSC.test(request.text)) {
