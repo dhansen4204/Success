@@ -40,7 +40,7 @@ function respond() {
   } 
   else if(request.text && botRegexBengals.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/750x414.jpeg.a0158215740249ae9bbfda2c1c40c0c2.large");
+    postMessage("https://i.groupme.com/750x424.jpeg.97b9aab1120941feb8167316e4083a25.large");
     this.res.end();
   } 
   else if(request.text && botRegexDaf.test(request.text)) {
