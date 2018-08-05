@@ -92,7 +92,7 @@ function respond() {
   }
   else if(request.text && botRegexRules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://success-gaming.webs.com/rules");
+    postMessage("http://daddyleagues.com/SUCCESS/rules");
     this.res.end();
   } 
   else if(request.text && botRegexFourth.test(request.text)) {
@@ -157,7 +157,7 @@ function respond() {
   }
   else if(request.text && botRegexTrade.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("To submit a trade, click here: http://success-gaming.webs.com/apps/forums/show/15304874-trades");
+    postMessage("To submit a trade, click here: https://www.daddyleagues.com/success/forum/forum/7993");
     this.res.end();
   }
   
