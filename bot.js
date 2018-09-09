@@ -10,7 +10,7 @@ function respond() {
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/; 
       botRegexRip = /^\/rip/; botRegexCrrct = /^\/correct/;
-      botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexBengals = /^\/bengals/; botRegexGoodg = /^\/gg/;
+      botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexVotes = /^\/votes/; botRegexGoodg = /^\/gg/;
       botRegexLaugh = /^\/lol/; botRegexWrong = /^\/wrong/; botRegexShaki = /^\/shaki/;
       botRegexDaf = /^\/dafuq/; botRegexMA32 = /^\/pending/; botRegexTrade = /^\/trade/; 
       siege1 = 'https://i.groupme.com/350x419.png.adc8c73a6c1547e0a9e04320296329f8'; siege2 = 'https://i.groupme.com/1279x752.jpeg.aa5d0401e0df495bba4b4e09dc5a6bd7'
@@ -38,9 +38,9 @@ function respond() {
     postMessage("http://www.wikihow.com/Tie-a-Noose");
     this.res.end();
   } 
-  else if(request.text && botRegexBengals.test(request.text)) {
+  else if(request.text && botRegexVotes.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/750x424.jpeg.97b9aab1120941feb8167316e4083a25.large");
+    postMessage("https://docs.google.com/spreadsheets/d/1QBF6Hcx3nkFcmjItOzkBFx9RKP4xle3foX4zTF4U9WA/edit?usp=sharing");
     this.res.end();
   } 
   else if(request.text && botRegexDaf.test(request.text)) {
@@ -157,7 +157,7 @@ function respond() {
   }
   else if(request.text && botRegexTrade.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("To submit a trade, click here: https://www.daddyleagues.com/success/forum/forum/7993");
+    postMessage("To submit a trade, click here: https://goo.gl/forms/b0bWKc22HGITXCoA2");
     this.res.end();
   }
   
