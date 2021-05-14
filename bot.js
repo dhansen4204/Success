@@ -157,7 +157,7 @@ function respond() {
   }
   else if(request.text && botRegexTrade.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("To submit a trade, click here: https://goo.gl/forms/b0bWKc22HGITXCoA2");
+    postMessage("To submit a trade, click here: https://mymadden.com/lg/success/trades/new");
     this.res.end();
   }
   
